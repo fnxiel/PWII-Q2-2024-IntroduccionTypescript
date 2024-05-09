@@ -1,0 +1,19 @@
+{
+  "name": "introducciontypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && npm run ejecutar",
+    "build": "tsc",
+    "ejecutar": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5"
+  }
+}
